@@ -1,0 +1,33 @@
+:root {
+	--neutral-light: #F9F9F9;
+	--yellow: #FFE45E;
+	--orange: #FA5A34;
+	--green: #A8D934;
+	--purple: #713182;
+	--pink: #FA5A78;
+	--blue: #009FB7;
+	--neutral-dark: #1D1E2C; 
+}
+
+body {
+	min-height: 100vh;
+}
+
+.navbar a.navbar-brand {
+	color: var(--neutral-light);
+	background-color: var(--green);
+	padding-left: 2rem;
+	padding-right: 2rem;
+	font-weight: bold;
+}
+
+main h1:first-child {
+	color: var(--green);
+}
+
+footer {
+	text-align: center;
+	background-color: #343A40;
+	flex-shrink: 0;
+	border-top: 6px solid var(--green);
+}
