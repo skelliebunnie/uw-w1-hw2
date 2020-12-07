@@ -101,3 +101,7 @@ footer {
 	flex-shrink: 0;
 	border-top: 6px solid var(--green);
 }
+
+@media screen and (max-width: 767px) {
+	.modal-backdrop { display: none; }
+}
