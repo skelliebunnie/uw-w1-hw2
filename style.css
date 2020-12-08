@@ -94,6 +94,18 @@ body {
 	border-color: var(--green); 
 }
 
+.btn-green:hover,
+.btn-green:focus {
+	background-color: var(--green-light);
+	border-color: var(--green-dark);
+	box-shadow: 0 0 0 0.2rem rgba(168, 217, 52, .25);
+}
+
+.btn-green:active {
+	background-color: var(--green-dark);
+	border-color: var(--green-light);
+}
+
 .btn-purple { 
 	background-color: var(--purple);
 	border-color: var(--purple); 
