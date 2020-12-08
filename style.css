@@ -36,6 +36,11 @@ body {
 .color-neutral-light { color: var(--neutral-light); }
 .color-neutral-dark { color: var(--neutral-dark); }
 
+.background-transparent,
+.background-transparent > * {
+	background-color: transparent;
+}
+
 .highlight-blue,
 .navbar-light .navbar-nav .nav-item.highlight-blue {
 	background-color: var(--blue);
@@ -139,7 +144,17 @@ body {
 main .container {
 	background-color: var(--neutral-light);
 	margin-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#about-me > .container {
+	margin-bottom: 0;
+}
+
+.color-bar {
+	height: .5rem;
 	margin-bottom: 2rem;
+	background: linear-gradient(to right, maroon, maroon 5%, red 5%, red 10%, #ff611a 10%, #ff611a 15%, orange 15%, orange 20%, lemonchiffon 20%, lemonchiffon 25%, yellow 25%, yellow 30%, greenyellow 30%, greenyellow 35%, limegreen 35%, limegreen 40%, darkgreen 40%, darkgreen 45%, lightskyblue 45%, lightskyblue 50%, cyan 50%, cyan 55%, dodgerblue 55%, dodgerblue 60%, mediumblue 60%, mediumblue 65%, orchid 65%, orchid 70%, mediumpurple 70%, mediumpurple 75%, rebeccapurple 75%, rebeccapurple 80%, pink 80%, pink 85%, hotpink 85%, hotpink 90%, deeppink 90%, deeppink 95%, mediumvioletred 95%);
 }
 
 #anim {
