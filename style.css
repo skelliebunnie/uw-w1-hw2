@@ -1,24 +1,24 @@
 :root {
 	--neutral-light: #F9F9F9;
-	--yellow: #FFE45E;
-	--yellow-dark: #665500;
-	--yellow-light: #ffee9f;
-	--orange: #FA5A34;
-	--orange-dark: #a42105;
-	--orange-light: #fa967c;
-	--green: #A8D934;
-	--green-dark: #597608;
-	--green-light: #cae781;
-	--purple: #713182;
-	--purple-dark: #210f28;
-	--purple-light: #b15cc3;
-	--pink: #FA5A78;
-	--pink-dark: #fa123c;
-	--pink-light: #fb96aa;
-	--blue: #009FB7;
-	--blue-dark: #003c42;
-	--blue-light: #87e2f0;
-	--neutral-dark: #1D1E2C; 
+	--yellow: #FFE45E; /* rgba(255, 228, 94, 1) */
+	--yellow-dark: #8d3d00; /* rgba(141, 61, 0, 1) */
+	--yellow-light: #ffee9f; /* rgba(255, 238, 159, 1) */
+	--orange: #FA5A34; /* rgba(250, 90, 52, 1) */
+	--orange-dark: #7c2100; /* rgba(124, 33, 0, 1) */
+	--orange-light: #ff8a5c; /* rgba(255, 138, 92, 1) */
+	--green: #A8D934; /* rgba(168, 217, 52, 1) */
+	--green-dark: #597608; /* rgba(89, 118, 8, 1) */
+	--green-light: #cae781; /* rgba(202, 231, 129, 1) */
+	--purple: #713182; /* rgba(113, 49, 130, 1) */
+	--purple-dark: #210f28; /* rgba(33, 15, 40, 1) */
+	--purple-light: #b15cc3; /* rgba(177, 92, 195, 1) */
+	--pink: #FA5A78; /* rgba(250, 90, 120, 1) */
+	--pink-dark: #fa123c; /* rgba(250, 18, 60, 1) */
+	--pink-light: #fb96aa; /* rgba(251, 150, 170, 1) */
+	--blue: #009FB7; /* rgba(0, 159, 183, 1) */
+	--blue-dark: #003c42; /* rgba(0, 60, 66, 1) */
+	--blue-light: #87e2f0; /* rgba(135, 226, 240, 1) */
+	--neutral-dark: #1D1E2C; /* rgba(29, 30, 44, 1) */
 }
 
 body {
@@ -42,13 +42,30 @@ body {
 .btn-yellow:hover,
 .btn-yellow:focus {
 	background-color: var(--yellow-light);
+	border-color: var(--yellow-dark);
+	box-shadow: 0 0 0 0.2rem rgba(255, 228, 94, .25);
 }
 
-.btn-yellow:active { background-color: var(--yellow-dark); }
+.btn-yellow:active {
+	background-color: var(--yellow-dark);
+	border-color: var(--yellow-light);
+}
 
 .btn-orange { 
 	background-color: var(--orange);
 	border-color: var(--orange); 
+}
+
+.btn-orange:hover,
+.btn-orange:focus {
+	background-color: var(--orange-light);
+	border-color: var(--orange-dark);
+	box-shadow: 0 0 0 0.2rem rgba(250, 90, 52, .25);
+}
+
+.btn-orange:active {
+	background-color: var(--orange-dark);
+	border-color: var(--orange-light);
 }
 
 .btn-green { 
@@ -61,9 +78,23 @@ body {
 	border-color: var(--purple); 
 }
 
-.btn-pink { 
+.btn-pink {
+	color: white;
 	background-color: var(--pink);
 	border-color: var(--pink); 
+}
+
+.btn-pink:hover,
+.btn-pink:focus {
+	background-color: var(--pink-light);
+	border-color: var(--pink-dark);
+	box-shadow: 0 0 0 0.2rem rgba(250, 90, 120, .25);
+}
+
+.btn-pink:active {
+	color: white;
+	background-color: var(--pink-dark);
+	border-color: var(--pink-light);
 }
 
 .btn-blue { 
