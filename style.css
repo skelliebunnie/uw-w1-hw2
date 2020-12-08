@@ -194,6 +194,13 @@ footer {
 	border-top: 6px solid var(--green);
 }
 
+footer a { font-weight: bold; }
+footer a:hover,
+footer a:focus {
+	color: var(--green-light);
+	text-decoration: none;
+}
+
 @media screen and (max-width: 767px) {
 	.modal-backdrop { display: none; }
 }
