@@ -23,6 +23,8 @@
 
 body {
 	min-height: 100vh;
+	background: linear-gradient(to bottom, rgba(255,255,255,0.97), rgba(255,255,255,0.97)), url('images/carbon fibre white.jpg') repeat top center;
+	position: relative;
 }
 
 .color-yellow { color: var(--yellow); }
@@ -118,6 +120,12 @@ body {
 	padding-left: 2rem;
 	padding-right: 2rem;
 	font-weight: bold;
+}
+
+main .container {
+	background-color: var(--neutral-light);
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 #anim {

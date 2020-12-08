@@ -13,7 +13,7 @@
 
     <title>[ANGEL] Contact</title>
   </head>
-    <body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100">
     <!-- header -->
     <header>
       <!-- navbar -->
@@ -40,25 +40,29 @@
     </header>
 
     <main role="main" class="flex-shrink-0">
-      <div class="container">
-        <h1 class="color-green">Contact</h1>
-        <form>
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
-            <small id="nameHelp" class="form-text text-muted">Enter the name you'd like to be addressed by.</small>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We will never share your email address with anyone, and we won't add it to any mailing lists without your express permission.</small>
-          </div>
-          <div class="form-group">
-            <label class="form-check-label" for="message">Message</label>
-            <textarea class="form-control" id="message" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-pink btn-submit">Submit</button>
-        </form>
+      <div class="container pt-3 pb-4 px-5">
+        <article class="row">
+          <section class="col">
+            <h1 class="color-green">Contact</h1>
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+                <small id="nameHelp" class="form-text text-muted">Enter the name you'd like to be addressed by.</small>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We will never share your email address with anyone, and we won't add it to any mailing lists without your express permission.</small>
+              </div>
+              <div class="form-group">
+                <label class="form-check-label" for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-pink btn-submit">Submit</button>
+            </form>
+          </section>
+        </article>
       </div>
     </main>
 
