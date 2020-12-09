@@ -1,5 +1,5 @@
 # uw-w1-hw2
-Responsive Portfolio Assignment, week 01
+Responsive Portfolio Assignment, week 02
 
 ## The Assignment
 Create 3 responsive-layout pages for a "portfolio", including an about page, a portfolio page with a couple images, and a contact page with a (non-working) form. All the pages needed to be responsive, of course, and one of the bonus options was to create a 'sticky' footer.
