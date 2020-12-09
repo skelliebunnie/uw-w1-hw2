@@ -1,4 +1,4 @@
-# uw-w1-hw2
+# uw-w2-hw1
 Responsive Portfolio Assignment, week 02
 
 ## The Assignment
